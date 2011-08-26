@@ -1,0 +1,11 @@
+# Simple Usage of git
+
+#clone from repo
+git clone git@github.com:arthurbryant/htc-testbed
+
+#commit to git repo
+git add file
+git commit -a -m ""
+git push
+#update from git repo
+git pull git://github.com/arthurbryant/htc-testbed master
